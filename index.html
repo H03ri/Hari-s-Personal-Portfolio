@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari's Personal|Portfolio Website..</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec5f855730.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo_final.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="home()">Home</a></li>
+                    <li><a href="#about" onclick="about()">About</a></li>
+                    <li><a href="#services" onclick="service()">Service</a></li>
+                    <li><a href="#portfolio" onclick="portfolio()">My Work</a></li>
+                    <li><a href="#contact" onclick="contact()">Contact</a></li>
+                    <i class="fa-solid fa-times fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Hariharan</span><br> From Chennai</h1>
+            </div>
+            <a href="./Hariharan_Kumar_Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+    <!-- --------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/finalabout.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hi, I'm Hariharan K, a passionate Python Full Stack Developer with a strong background in building scalable web applications.I specialize in backend development with Django/frontend technologies like HTML,CSS,JavaScript.I enjoy tackling complex challenges, optimizing performance, and continuously learning new technologies to stay ahead in the ever-evolving tech landscape</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Tech</span><br> HTML, CSS, and JavaScript</li>
+                            <li><span>SQL</span><br> Database Design and Management</li>
+                            <li><span>Pythom</span><br>Programming Proficiency</li>
+                            <li><span>Django</span><br>Framework Expertise</li>        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Python,Django Training from Qspiders</li> 
+                            <li><span>2024-Current</span><br>MSC(Information technology) from University of Madras,Chennai</li>
+                            <li><span>2020 - 2023</span><br>BSC(Computer Science) from Govt Arts & Science College-Perumbakkam</li>
+                            <li><span>2020</span><br>Higher Secondary School Certificate (HSSC) with  61.3%</li>
+                            <li><span>2018</span><br>Secondary School Leaving Certificate (SSLC) with  74.2%</li>
+                                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------services-------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the process of creating visually appealing and layouts.
+                    Modern web design leverages tools like HTML, CSS, JavaScript, and frameworks like Bootstrap or Tailwind CSS.
+                    A well-designed website not only looks great but also enhances usability, accessibility, and engagement.
+                </p>
+                <a href="https://www.geeksforgeeks.org/web-design/" target="_blank">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Python is one of the most popular programming languages today, known for its simplicity, extensive features and library support. Its clean and straightforward syntax makes it beginner-friendly, while its powerful libraries and frameworks makes it perfect for developers</p>
+                <a href="https://docs.python.org/3/tutorial/index.html" target="_blank">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Django</h2>
+                <p>In Django, you can take web applications from concept to launch in a matter of hours. Django takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+                <a href="https://www.djangoproject.com/start/overview/" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------portfolio------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/To-do_list.jpg" alt="">
+                <div class="layer">
+                    <h3>To-Do List Using Django</h3>
+                    <p>To written record of tasks that need to be completed,often organized by priority or due date, allowing you to effectively manage your time by breaking down larger projects into smaller. </p>
+                    <a href="https://h03ri.pythonanywhere.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi laudantium debitis iusto ratione voluptates nemo? </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil animi laudantium debitis iusto ratione voluptates nemo? </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+
+ <!-- ---------------------contact----------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get In Touch():</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> hariharan.kumark@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7603805105</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://wa.me/917603805105" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/hariharan-kumar-2886b027a/
+                    " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./Hariharan_Kumar_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" onsubmit="reserForm(event)">
+                        <input type="hidden" name="access_key" value="ed358e1c-2cc6-4ad5-9a37-543d0d002173">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input typye="email" name="Email" placeholder="yout email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hariharan.All rights Reserved</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+    function home(){
+        sidemeu.style.right = "-200px"
+    }
+    function about(){
+        sidemeu.style.right = "-200px"
+    }function service(){
+        sidemeu.style.right = "-200px"
+    }function portfolio(){
+        sidemeu.style.right = "-200px"
+    }
+    function contact(){
+        sidemeu.style.right = "-200px"
+    }
+</script>
+<script>
+        const msg = document.getElementById("msg")
+        const form = document.getElementById("contactForm");
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+        fetch(form.action,{ method: form.method, body: new FormData(form) })
+            .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function(){
+                    msg.innerHTML = ""
+                    },2000)
+                    form.reset()
+            }).catch(error => console.error("Error:",error))
+        })
+
+    </script>
+<!-- <script>
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbyTlfDLK3BMeg3Cn80StfOym4b8p7vxt0j1yIOdivUfacbIcaMlRhPjsV_cyaDnAAlbjQ/exec'
+    // const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+</body>
+</html>
